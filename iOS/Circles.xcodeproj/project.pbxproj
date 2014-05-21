@@ -21,6 +21,8 @@
 		263C91A9192BFEB9006B9F73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263C918B192BFEB8006B9F73 /* UIKit.framework */; };
 		263C91B1192BFEB9006B9F73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 263C91AF192BFEB9006B9F73 /* InfoPlist.strings */; };
 		263C91B3192BFEB9006B9F73 /* CirclesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 263C91B2192BFEB9006B9F73 /* CirclesTests.m */; };
+		263C91BE192C016E006B9F73 /* CircleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 263C91BD192C016E006B9F73 /* CircleScrollView.m */; };
+		263C91C1192C02F9006B9F73 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 263C91C0192C02F9006B9F73 /* CircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		263C91AE192BFEB9006B9F73 /* CirclesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CirclesTests-Info.plist"; sourceTree = "<group>"; };
 		263C91B0192BFEB9006B9F73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		263C91B2192BFEB9006B9F73 /* CirclesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirclesTests.m; sourceTree = "<group>"; };
+		263C91BC192C016E006B9F73 /* CircleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleScrollView.h; sourceTree = "<group>"; };
+		263C91BD192C016E006B9F73 /* CircleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleScrollView.m; sourceTree = "<group>"; };
+		263C91BF192C02F9006B9F73 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		263C91C0192C02F9006B9F73 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				263C919D192BFEB8006B9F73 /* ViewController.m */,
 				263C919F192BFEB8006B9F73 /* Images.xcassets */,
 				263C918E192BFEB8006B9F73 /* Supporting Files */,
+				263C91BC192C016E006B9F73 /* CircleScrollView.h */,
+				263C91BD192C016E006B9F73 /* CircleScrollView.m */,
+				263C91BF192C02F9006B9F73 /* CircleView.h */,
+				263C91C0192C02F9006B9F73 /* CircleView.m */,
 			);
 			path = Circles;
 			sourceTree = "<group>";
@@ -250,6 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				263C919E192BFEB8006B9F73 /* ViewController.m in Sources */,
+				263C91C1192C02F9006B9F73 /* CircleView.m in Sources */,
+				263C91BE192C016E006B9F73 /* CircleScrollView.m in Sources */,
 				263C9198192BFEB8006B9F73 /* AppDelegate.m in Sources */,
 				263C9194192BFEB8006B9F73 /* main.m in Sources */,
 			);
@@ -456,6 +468,7 @@
 				263C91B8192BFEB9006B9F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		263C91B9192BFEB9006B9F73 /* Build configuration list for PBXNativeTarget "CirclesTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				263C91BB192BFEB9006B9F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

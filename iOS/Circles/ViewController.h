@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CircleScrollView.h"
 
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UITextField *circles_nb;
+@property (weak, nonatomic) IBOutlet UITextField *line_width;
+@property (weak, nonatomic) IBOutlet CircleScrollView *cirlceScrollView;
+
+- (IBAction)updateCircles:(id)sender;
+- (IBAction)onTap:(id)sender;
 
 @end
